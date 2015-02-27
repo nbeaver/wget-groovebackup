@@ -2,7 +2,9 @@
 A minimal script to download Groovebackup
 =========================================
 
-Instructions:
+------------
+Instructions
+------------
 
 #. Go to https://groovebackup.com/ and log into Grooveshark as instructed.
 
@@ -23,3 +25,9 @@ Instructions:
 #. Put the ``cookies.txt`` file into the same directory as `wget-groovebackup.sh <wget-groovebackup.sh>`_
 
 #. Run `wget-groovebackup.sh <wget-groovebackup.sh>`_
+
+----
+TODO
+----
+
+Cookies from groovebackup seem to only last about 24 hours.
