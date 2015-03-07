@@ -34,7 +34,7 @@ wget --load-cookies "$COOKIE_FILE" \
         --recursive --convert-links --server-response "$URL" \
         --reject index.html?lang=de,index.html?lang=dk,logout
 
-if ! grep 'groovebackup.com/exportMusic/' $LOG_FILE
+if ! grep 'groovebackup.com/exportMusic/' "$LOG_FILE" &> /dev/null
 then
     echo "Error: Could not access Grooveshark account on groovebackup.com."
     echo "       This is probably because the cookies have expired."
