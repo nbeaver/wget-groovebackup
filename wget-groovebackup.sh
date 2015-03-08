@@ -7,7 +7,7 @@ SCRIPT_DIR="$( dirname "$( readlink --canonicalize "${BASH_SOURCE[0]}" )" )"
 COOKIE_FILE="$SCRIPT_DIR/cookies.txt"
 LOG_FILE="$SCRIPT_DIR/wget.log"
 
-if ! which wget &> /dev/null
+if ! hash wget
 then
     echo "Error: Please install wget."
     exit 1
