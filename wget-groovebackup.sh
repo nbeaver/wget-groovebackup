@@ -1,7 +1,15 @@
 #! /usr/bin/env bash
 
+if test -z "$1"
+then
+    echo "Usage: wget-groovebackup.sh /path/to/download/folder/"
+    exit 1
+fi
+
+DOWNLOAD_FOLDER="$1"
+
 URL="http://groovebackup.com/?lang=en"
-DOWNLOAD_FOLDER="$HOME/backup/grooveshark-backup/"
+
 SCRIPT_DIR="$( dirname "$( readlink --canonicalize "${BASH_SOURCE[0]}" )" )"
 
 COOKIE_FILE="$SCRIPT_DIR/cookies.txt"
@@ -28,11 +36,11 @@ fi
 
 mkdir --parents "$DOWNLOAD_FOLDER"
 wget --load-cookies "$COOKIE_FILE" \
-        --output-file "$LOG_FILE" \
-        --directory-prefix "$DOWNLOAD_FOLDER" \
-        --wait 0.05 \
-        --recursive --convert-links --server-response "$URL" \
-        --reject index.html?lang=de,index.html?lang=dk,logout
+    --no-verbose \
+    --directory-prefix "$DOWNLOAD_FOLDER" \
+    --wait 0.05 \
+    --recursive --convert-links --server-response "$URL" \
+    --reject index.html?lang=de,index.html?lang=dk,logout |& tee "$LOG_FILE"
 
 if ! grep 'groovebackup.com/exportMusic/' "$LOG_FILE" &> /dev/null
 then
