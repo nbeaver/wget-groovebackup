@@ -26,6 +26,16 @@ Instructions
 
 #. Run `wget-groovebackup.sh <wget-groovebackup.sh>`_
 
+-----------
+Limitations
+-----------
+
+Groovebackup.com only backs up your Grooveshark Collection, Favorites, and Playlists.
+It does not save playlist descriptions.
+
+The playlists are saved as UTF-8 CSV files
+containing the song name, artist name, and album name only.
+
 ----
 TODO
 ----
