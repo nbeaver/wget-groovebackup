@@ -46,7 +46,7 @@ if ! grep 'groovebackup.com/exportMusic/' "$LOG_FILE" &> /dev/null
 then
     echo "Error: Could not access Grooveshark account on groovebackup.com."
     echo "       This is probably because the cookies have expired."
-    echo "       Please log in to groovebackup.com and refresh cookies.txt."
+    echo "       Please log in to http://www.groovebackup.com and refresh cookies.txt."
     while true; do
         read -p "Open groovebackup.com in web browser? " yn
         case $yn in
