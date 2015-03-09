@@ -15,16 +15,16 @@ but not your collection or favorites.
 For that, you will need to use `Groovebackup`_.
 This is a bash script to download Groovebackup with `wget`_.
 
-.. dying: http://mashable.com/2013/04/22/grooveshark-radio/
-.. dead: http://www.wsj.com/articles/grooveshark-tries-to-play-by-the-rules-with-online-radio-app-1418014861
-.. rapidly: https://www.reddit.com/r/grooveshark/comments/sje69/is_anyone_else_finding_that_lots_of_songs_are/
-.. disappearing: https://answers.yahoo.com/question/index?qid=20120507183932AArp6Mf
-.. from: https://www.reddit.com/r/groovesharkplaylists/comments/1rffzv/are_songs_still_disappearing_from_grooveshark/
-.. Soundiiz: http://soundiiz.com/#/converter
-.. Groovebackup: http://groovebackup.com/
-.. wget: https://www.gnu.org/software/wget/
-.. due to: https://www.quora.com/Is-Grooveshark-totally-not-worth-using-now-Broken?share=1
-.. DMCA takedown requests: http://www.theguardian.com/music/musicblog/2011/dec/12/grooveshark-music-site
+.. _dying: http://mashable.com/2013/04/22/grooveshark-radio/
+.. _dead: http://www.wsj.com/articles/grooveshark-tries-to-play-by-the-rules-with-online-radio-app-1418014861
+.. _rapidly: https://www.reddit.com/r/grooveshark/comments/sje69/is_anyone_else_finding_that_lots_of_songs_are/
+.. _disappearing: https://answers.yahoo.com/question/index?qid=20120507183932AArp6Mf
+.. _from: https://www.reddit.com/r/groovesharkplaylists/comments/1rffzv/are_songs_still_disappearing_from_grooveshark/
+.. _Soundiiz: http://soundiiz.com/#/converter
+.. _Groovebackup: http://groovebackup.com/
+.. _wget: https://www.gnu.org/software/wget/
+.. _due to: https://www.quora.com/Is-Grooveshark-totally-not-worth-using-now-Broken?share=1
+.. _DMCA takedown requests: http://www.theguardian.com/music/musicblog/2011/dec/12/grooveshark-music-site
 
 ------------
 Instructions
