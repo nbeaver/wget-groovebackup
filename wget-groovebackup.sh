@@ -42,6 +42,9 @@ wget --load-cookies "$COOKIE_FILE" \
     --recursive --convert-links --server-response "$URL" \
     --reject index.html?lang=de,index.html?lang=dk,logout |& tee "$LOG_FILE"
 
+# The --reject doesn't really work for HTML files, unfortunately.
+# http://serverfault.com/questions/73962/wget-recursive-download-but-i-dont-want-to-follow-all-links
+
 if ! grep 'groovebackup.com/exportMusic/' "$LOG_FILE" &> /dev/null
 then
     echo "Error: Could not access Grooveshark account on groovebackup.com."
