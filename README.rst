@@ -4,10 +4,16 @@ A minimal script to download Groovebackup
 
 .. Note::
 
-  Grooveshark went offline on April 30, 2015 as part of a legal settlement.
-  Groovebackup was briefly available afterward before redirecting.
-  This means this script will not work anymore,
+  `Grooveshark`_ `went`_ `offline`_ on April 30, 2015 as part of a `legal settlement`_.
+  Groovebackup was `briefly available`_ afterward before redirecting to the statement on grooveshark.com.
+  As a result, this script is now useless,
   and is only archived here for posterity.
+
+.. _Grooveshark: http://grooveshark.com/
+.. _went: https://www.theverge.com/2015/4/30/8526105/grooveshark-shuts-down-settles-with-labels
+.. _offline: https://news.ycombinator.com/item?id=9468476
+.. _legal settlement: https://recode.net/2015/04/30/grooveshark-the-free-music-service-that-used-to-scare-the-big-labels-gives-up/
+.. _briefly available: https://www.reddit.com/r/grooveshark/comments/34kokh/groovebackup_is_now_dead_too_it_redirects_to_the/
 
 ----------
 Motivation
@@ -62,6 +68,8 @@ Limitations
 -----------
 
 Groovebackup.com only backs up your Grooveshark Collection, Favorites, and Playlists.
+It does not back up the list of users you follow,
+or the list of users following you.
 
 It does not save playlist descriptions.
 
