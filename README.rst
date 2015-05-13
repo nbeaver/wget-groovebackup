@@ -2,6 +2,13 @@
 A minimal script to download Groovebackup
 =========================================
 
+.. Note::
+
+  Grooveshark went offline on April 30, 2015 as part of a legal settlement.
+  Groovebackup was briefly available afterward before redirecting.
+  This means this script will not work anymore,
+  and is only archived here for posterity.
+
 ----------
 Motivation
 ----------
